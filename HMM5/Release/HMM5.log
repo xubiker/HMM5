@@ -1,0 +1,45 @@
+﻿Построение начато 16.05.2012 18:47:20.
+     1>Проект "c:\prak2\HMM5\HMM5\HMM5.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\HMM5.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HMM.cpp armies.cpp fabrics.cpp fields.cpp generators.cpp handlers.cpp heroes.cpp parsers.cpp towns.cpp units.cpp weapon.cpp
+         HMM.cpp
+         armies.cpp
+         fabrics.cpp
+         fields.cpp
+         generators.cpp
+         handlers.cpp
+         heroes.cpp
+         parsers.cpp
+         towns.cpp
+         units.cpp
+         weapon.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\prak2\HMM5\Release\HMM5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HMM5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\prak2\HMM5\Release\HMM5.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\prak2\HMM5\Release\HMM5.lib" /MACHINE:X86 Release\armies.obj
+         Release\coords.obj
+         Release\fabrics.obj
+         Release\fields.obj
+         Release\handlers.obj
+         Release\heroes.obj
+         Release\HMM.obj
+         Release\parsers.obj
+         Release\generators.obj
+         Release\towns.obj
+         Release\units.obj
+         Release\weapon.obj
+            Создается библиотека c:\prak2\HMM5\Release\HMM5.lib и объект c:\prak2\HMM5\Release\HMM5.exp
+         Создание кода
+     1>c:\prak2\hmm5\hmm5\handlers.cpp(125): warning C4715: handlers::BattleHandler::get_action: значение возвращается не при всех путях выполнения
+         Создание кода завершено
+         HMM5.vcxproj -> c:\prak2\HMM5\Release\HMM5.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\prak2\HMM5\Release\HMM5.exe;#1" /manifest Release\HMM5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\HMM5.unsuccessfulbuild" удаляется.
+         Обращение к "Release\HMM5.lastbuildstate".
+     1>Построение проекта "c:\prak2\HMM5\HMM5\HMM5.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:27.35
